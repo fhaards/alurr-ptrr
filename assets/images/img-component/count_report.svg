@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:#FFA64D;enable-background:new    ;}
+	.st1{opacity:0.5;}
+	.st2{fill:#BBDEFB;}
+</style>
+<circle class="st0" cx="384" cy="336" r="80"/>
+<g class="st1">
+	<path class="st2" d="M496,92.7L403.3,0H128v96H0v400h448v-48h48V92.7z M448,104v24H176V48h216v56H448z M408,88V27.3L468.7,88H408z
+		 M128,112v48H16v-48H128z M432,480H16V176h112v272h304V480z M144,432V16h248v16H160v112h304v-40h16v328H144z"/>
+	<rect x="32" y="128" class="st2" width="16" height="16"/>
+	<rect x="64" y="128" class="st2" width="16" height="16"/>
+	<rect x="96" y="128" class="st2" width="16" height="16"/>
+	<rect x="160" y="272" class="st2" width="16" height="16"/>
+	<rect x="192" y="272" class="st2" width="96" height="16"/>
+	<rect x="160" y="304" class="st2" width="128" height="16"/>
+	<rect x="272" y="400" class="st2" width="16" height="16"/>
+	<rect x="160" y="400" class="st2" width="96" height="16"/>
+	<rect x="160" y="368" class="st2" width="128" height="16"/>
+	<rect x="160" y="336" class="st2" width="128" height="16"/>
+	<rect x="160" y="160" class="st2" width="16" height="16"/>
+	<rect x="192" y="160" class="st2" width="272" height="16"/>
+	<rect x="160" y="192" class="st2" width="304" height="16"/>
+	<rect x="448" y="224" class="st2" width="16" height="16"/>
+	<rect x="160" y="224" class="st2" width="272" height="16"/>
+</g>
+<path class="st0" d="M128,416H32V240h96V416z"/>
+</svg>

@@ -1,0 +1,9 @@
+<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/vendor/bootstrap/css/bootstrap.min.css';?>"> 
+<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/custom_mCustomScrollbar.min.css';?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/custom_fontFaces.css';?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/custom_style.scss';?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/custom_animate.css';?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/vendor/font-awesome/css/font-awesome.css';?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/vendor/DataTables/css/datatables.min.css';?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/vendor/sweetalert/sweetalert2.min.css';?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/vendor/sweetalert/sweetalert2.css';?>">

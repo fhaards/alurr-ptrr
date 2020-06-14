@@ -1,0 +1,202 @@
+<style>
+	/*@font-face {
+	  font-family: 'Roboto Regular';
+	  font-style: normal;
+	  font-weight: 400;
+	  src: url('assets/fonts/roboto/roboto-v20-latin-regular.eot'); 
+	  src: local('Roboto'), local('Roboto-Regular'),
+	       url('assets/fonts/roboto/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), 
+	       url('assets/fonts/roboto/roboto-v20-latin-regular.woff2') format('woff2'), 
+	       url('assets/fonts/roboto/roboto-v20-latin-regular.woff') format('woff'), 
+	       url('assets/fonts/roboto/roboto-v20-latin-regular.ttf') format('truetype'),
+	       url('assets/fonts/roboto/roboto-v20-latin-regular.svg#Roboto') format('svg'); 
+	}
+	*/
+	.isSymbolText{
+		font-family: DejaVu Sans, sans-serif;
+		font-size:10px;
+	}
+	.textIsCenter{
+		text-align: center;
+	}
+	.textIsBold{
+		font-weight:200;
+	}
+
+	/*//////////////////// TABLE HEADER */
+	.table-header{
+		font-size:12px;
+	}
+	.table-header img{
+		width:100%;
+	}
+	.table-header ul{
+		list-style-type: none;
+	}
+	.table-header ul li{
+		font-size:9px;
+	}
+	.table-header .text-header{
+		font-size:14px !important;
+	}
+
+	/*//////////////////// TABLE CONTENT */
+
+	.table-content{
+		margin-top:20px;
+		width: 100%;
+		font-size:11px;
+		color:#000;
+		border:1px solid #000;
+		border-collapse: collapse;
+	}
+	.table-content tr th{
+		padding:3px;
+	}
+	.table-content tr td{
+		padding-left: 10px;
+	}
+	.table-content .sop{
+		font-size:8px;
+	}
+	.table-content .satuan{
+		font-size:9px;
+	}
+
+	/*//////////////////// TABLE PELURUHAN */
+
+	#table-Pel{
+		font-size:12px !important;
+	}
+
+	#table-Pel .t-pel-head{
+		width: 100%;
+	}
+	#table-Pel .t-pel-head img{
+		width: 100%;
+	}
+
+
+	#table-Pel .row{
+		width: 100%;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	#table-Pel .row .text-batch{
+	    background: yellow;
+	    border:1px solid #000;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+
+
+	#table-Pel .t-pel-produk{
+		margin-bottom: 30px;
+		width: 100%;
+		height: 150px;
+		display: inline-block;
+		position: relative;
+		border: 1px solid #000;
+	}
+
+		
+		#table-Pel .t-pel-produk .left{
+			width:30%;
+			height: 150px;
+			float: left;
+			text-align: center;
+			border-right: 1px solid #000;
+		}
+		#table-Pel .t-pel-produk .left .h5{
+			text-align: center;
+		}
+		#table-Pel .t-pel-produk .right{
+			width:70%;
+			height: 150px;
+			float: right;
+			display: inline-block;
+			padding:0px !important;
+		}
+		#table-Pel .t-pel-produk .right .right-top{
+			height: 20px;
+			position: relative;
+			width: 100%;
+			text-align: center;
+			padding: 0px !important;
+			border-bottom: 1px solid #000;
+		}
+		#table-Pel .t-pel-produk .right .right-bottom{
+			position: relative;
+			height: 130px;
+			width: 100%;
+		}
+		#table-Pel .t-pel-produk .right .right-bottom .rb-left{
+			width: 50%;
+			position: relative;
+			height: 130px;
+			border-right: 1px solid #000;
+			text-align: left;
+		}
+		#table-Pel .t-pel-produk .right .right-bottom .rb-left .tb-rb-left{
+			width: 100%;
+		}
+		#table-Pel .t-pel-produk .right .right-bottom .rb-right{
+			width: 50%;
+			height: 130px;
+			position: absolute;
+			float: right;
+		}
+		#table-Pel .t-pel-produk .right .right-bottom .rb-right .tb-rb-right{
+			width: 100%;
+		}
+		#table-Pel .t-pel-produk .right .right-bottom  .td-r{
+			text-align: right;
+		}
+		#table-Pel .t-pel-produk .right .right-bottom  .td-l{
+			text-align: left;
+		}
+
+
+	#table-Pel .t-pel-akt{
+		position: relative;
+		border-collapse: collapse;
+	}
+	#table-Pel .t-pel-akt th{
+		padding: 5px;
+	}
+	#table-Pel .text-center{
+		text-align: center;
+	}
+
+
+	/*//////////////////// TABLE FOOTER */
+	.table-footer{
+		margin-top:0px;
+		width: 100%;
+	}
+	.table-footer .kan{
+		font-size:12px;
+	}
+	.table-footer .ttdl{
+		width: 80%;
+	}
+	.table-footer .ttdr{
+		font-size: 12px;
+		padding-left: 10px;
+	}
+	.table-footer .ttdr .ttd2{
+		margin-top:80px;
+	}
+	.table-footer .ft3{
+		width: 100%;
+		font-size:11px;
+	}
+	.table-footer .ft3 a{
+		float: right;
+		padding: 5px;
+		border:1px solid #000;
+	}
+	
+</style>
+</head>
+<body>
