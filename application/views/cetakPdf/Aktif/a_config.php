@@ -1,4 +1,7 @@
 <?php 
+    setlocale(LC_TIME, 'IND');
+    //$date = strftime("%d %B %Y %H:%M", time());
+
     if($satuanPr=="P_mCi"){
         $N_SatuanPrs=1;
         $S_Satuan="mCi";
@@ -50,10 +53,13 @@
         $tgl_peng=$Cpdf['tgl_peng'];
         $tgl_akt_kal=$Cpdf['tgl_akt_kal'];
 
-        $tgl_pn_s=date('d-F-Y', strtotime($Cpdf['tgl_pn']));
-        $tgl_an_s=date('d-F-Y', strtotime($Cpdf['tgl_an']));
-        $tgl_peng_f=date('d-M-Y   H:i', strtotime($Cpdf['tgl_peng']));
-        $tgl_kal_f=date('d-M-Y   H:i', strtotime($Cpdf['tgl_akt_kal']));
+        // $tgl_pn_s=date('d-F-Y', strtotime($Cpdf['tgl_pn']));
+        $tgl_pn_s=strftime("%d-%B-%Y", strtotime($Cpdf['tgl_pn']));
+        $tgl_an_s=strftime("%d-%B-%Y", strtotime($Cpdf['tgl_an']));
+        $tgl_peng_f=strftime("%d-%B-%Y", strtotime($Cpdf['tgl_peng']));
+        $tgl_kal_f=strftime("%d-%B-%Y", strtotime($Cpdf['tgl_akt_kal']));
+        // $tgl_peng_f=date('d-M-Y   H:i', strtotime($Cpdf['tgl_peng']));
+        // $tgl_kal_f=date('d-M-Y   H:i', strtotime($Cpdf['tgl_akt_kal']));
 
         /*/////////////// KETIDAKPASTIAN */
         $ktdk_rdnu=$Cpdf['ktdk_k_rdnu'];
@@ -75,4 +81,5 @@
         $akt_awal = number_format($akt_awalss,2,",","");
         $akt_kal  = number_format($akt_kalss,2,",","");
         $t_akt    = number_format($t_aktss,2,",","");
+        $vol_baru    = number_format($volume,2,",","");
 ?>

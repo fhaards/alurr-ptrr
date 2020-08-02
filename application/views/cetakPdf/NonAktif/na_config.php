@@ -1,7 +1,7 @@
 <?php 
         define('CHARSET', 'ISO-8859-1');
         define('REPLACE_FLAGS', ENT_COMPAT | ENT_XHTML);
-    
+        setlocale(LC_TIME, 'IND');
     // works
     //CONFIGURASI
         //PRODUK Non-Aktif
@@ -20,8 +20,10 @@
         $status_na=$Cpdf['status_na'];
 
         //TANGGAL
-        $tgl_pn_s=date('d-F-Y', strtotime($Cpdf['tgl_pn_na']));
-        $tgl_an_s=date('d-F-Y', strtotime($Cpdf['tgl_an_na']));
+        // $tgl_pn_s=date('d-F-Y', strtotime($Cpdf['tgl_pn_na']));
+        // $tgl_an_s=date('d-F-Y', strtotime($Cpdf['tgl_an_na']));
+        $tgl_pn_s=strftime("%d-%B-%Y", strtotime($Cpdf['tgl_pn_na']));
+        $tgl_an_s=strftime("%d-%B-%Y", strtotime($Cpdf['tgl_an_na']));
 
         //LAPORAN
         $nolap=$Cpdf['no_lap_na'];
