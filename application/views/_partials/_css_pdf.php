@@ -185,7 +185,7 @@
 		padding-left: 10px;
 	}
 	.table-footer .ttdr .ttd2{
-		margin-top:80px;
+		margin-top:50px;
 	}
 	.table-footer .ft3{
 		width: 100%;

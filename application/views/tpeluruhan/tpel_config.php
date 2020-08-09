@@ -1,5 +1,5 @@
 <?php 
-    
+        setlocale(LC_TIME, 'IND');
         if($satuanPr=="P_mCi"){
             $N_SatuanPrs=1;
             $S_Satuan="mCi";
@@ -55,8 +55,8 @@
 
             $tgl_pn_s=date('d-F-Y', strtotime($ffsu['tgl_pn']));
             $tgl_an_s=date('d-F-Y', strtotime($ffsu['tgl_an']));
-            $tgl_peng_f=date('d-M-Y   H:i', strtotime($ffsu['tgl_peng']));
-            $tgl_kal_f=date('d/m/Y   H.i', strtotime($ffsu['tgl_akt_kal']));
+            $tgl_peng_f=date('d/m/Y   H:i', strtotime($ffsu['tgl_peng']));
+            $tgl_kal_f=date('d/m/Y   H:i', strtotime($ffsu['tgl_akt_kal']));
             $tgl_kal_pel=date('Y-m-d\TH:i', strtotime($tgl_akt_kal));
 
 

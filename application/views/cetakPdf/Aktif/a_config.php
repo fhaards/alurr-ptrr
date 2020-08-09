@@ -56,10 +56,10 @@
         // $tgl_pn_s=date('d-F-Y', strtotime($Cpdf['tgl_pn']));
         $tgl_pn_s=strftime("%d-%B-%Y", strtotime($Cpdf['tgl_pn']));
         $tgl_an_s=strftime("%d-%B-%Y", strtotime($Cpdf['tgl_an']));
-        $tgl_peng_f=strftime("%d-%B-%Y", strtotime($Cpdf['tgl_peng']));
-        $tgl_kal_f=strftime("%d-%B-%Y", strtotime($Cpdf['tgl_akt_kal']));
-        // $tgl_peng_f=date('d-M-Y   H:i', strtotime($Cpdf['tgl_peng']));
-        // $tgl_kal_f=date('d-M-Y   H:i', strtotime($Cpdf['tgl_akt_kal']));
+        $tgl_peng_f=strftime("%d-%B-%Y %H:%M", strtotime($Cpdf['tgl_peng']));
+        $tgl_kal_f=strftime("%d-%B-%Y %H:%M", strtotime($Cpdf['tgl_akt_kal']));
+        $tgl_peng_f2=date('d-m-Y   H:i', strtotime($Cpdf['tgl_peng']));
+        $tgl_kal_f2=date('d-m-Y   H:i', strtotime($Cpdf['tgl_akt_kal']));
 
         /*/////////////// KETIDAKPASTIAN */
         $ktdk_rdnu=$Cpdf['ktdk_k_rdnu'];

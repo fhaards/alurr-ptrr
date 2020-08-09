@@ -77,17 +77,17 @@
                 <u>Aktifitas saat pengujian</u> <br>
                 <?php echo $akt_awal;?>
                 <span class="satuan"><?php echo $S_Satuan;?>/ml</span>
-                &nbsp; Tgl. <?php echo $tgl_peng_f;?>  <br>
+                &nbsp; Tgl. <?php echo $tgl_peng_f2;?>  <br>
 
                 <u>Aktifitas saat kalibrasi</u>  <br>
                 <?php echo $akt_kal;?> 
                 <span class="satuan"><?php echo $S_Satuan;?>/ml </span>
-                &nbsp; Tgl. <?php echo $tgl_kal_f;?>  <br>
+                &nbsp; Tgl. <?php echo $tgl_kal_f2;?>  <br>
 
                 <u>Aktifitas yang dikirim</u>  <br>
                 <?php echo $t_akt;?> 
                 <span class="satuan"><?php echo $S_Satuan;?></span> / <?php echo $vol_baru;?><span class="satuan"> ml </span>
-                Tgl. <?php echo $tgl_kal_f;?>  <br>
+                Tgl. <?php echo $tgl_kal_f2;?>  <br>
                 Ketidakpastian pengukuran <?php echo $ktdk_akt;?> <br>
 
 
@@ -97,7 +97,7 @@
 			    ?>
 			    	<u>Aktifitas saat pengujian</u> <br>
 		        	<?php echo $t_akt;?> <?php echo $S_Satuan;?> 
-		        	/ <?php echo $vol_baru;?> ml &nbsp; Tgl. <?php echo $tgl_kal_f;?>
+		        	/ <?php echo $vol_baru;?> ml &nbsp; Tgl. <?php echo $tgl_kal_f2;?>
 		        	<br>
 		        	Ketidakpastian pengukuran <?php echo $ktdk_akt;?>   
 			    <?php

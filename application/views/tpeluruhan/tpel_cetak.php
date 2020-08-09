@@ -27,7 +27,7 @@
 					$newKon=number_format($eachVal,2,".","");
 					$newTrdk=number_format($eachVal*$volume,2,".","");
 					$repeat = strtotime("+".$timespan." hour",strtotime($LastDate));
-				    $LastDate = date('Y/m/d H.i',$repeat);
+				    $LastDate = date('Y/m/d H:i',$repeat);
 			?>
 			    <tr>
 			    	<td><?php echo $key; ?></td>
