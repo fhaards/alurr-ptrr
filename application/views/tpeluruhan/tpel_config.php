@@ -36,6 +36,7 @@
             $fraksi=$ffsu['fraksi'];
             $k_ling=$ffsu['k_ling'];
             $volume=$ffsu['volume'];
+            $vol_baru= number_format($volume,2,",","");
             $derajat_keasaman_bhn=$ffsu['derajat_keasaman_bhn'];
             $der_keas=$ffsu['der_keas'];
             $kem_rdnu=$ffsu['kem_rdnu'];

@@ -38,7 +38,7 @@
 					</tr>
 					<tr>
 						<td class='td-r'>Volume</td>
-						<td class='td-l'>: <?php echo $volume; ?> ml</td>
+						<td class='td-l'>: <?php echo $vol_baru; ?> ml</td>
 					</tr>
 					<tr>
 						<td class='td-r'>Total Radioaktivitas</td>

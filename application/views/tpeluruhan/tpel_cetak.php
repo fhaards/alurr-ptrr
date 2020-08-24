@@ -33,7 +33,7 @@
 			    	<td><?php echo $key; ?></td>
 			    	<td><?php echo $LastDate; ?></td>
 			    	<td><?php echo $newKon;?></td>
-			    	<td><?php echo $volume;?></td>
+			    	<td><?php echo $vol_baru;?></td>
 			    	<td><?php echo $newTrdk;?></td>
 			    	<td></td>
 			    </tr>
